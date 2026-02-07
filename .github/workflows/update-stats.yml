@@ -1,0 +1,25 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@v4
+        with:
+          username: xe13579
+          show_icons: true
+          theme: radical
+          cache_seconds: 86400
+          
+      - name: Update README
+        run: |
+          # 这里可以添加自动更新 README 的脚本
+          echo "Stats updated!"
