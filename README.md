@@ -5,9 +5,11 @@
 
 ## 🚀 About Me
 
-Hi there! I'm a passionate developer who loves to build amazing things with code. Welcome to my GitHub profile where I share my projects and contributions to the open-source community.
+你好！我是一名热爱编程的开发者，专注于构建有趣且实用的项目。欢迎来到我的 GitHub 主页，在这里我会分享我的代码项目和技术探索。
 
-## 🛠️ Technologies & Skills
+作为一名全栈开发者，我对新技术充满好奇，喜欢解决复杂的技术挑战，并致力于写出高质量、可维护的代码。
+
+## 🛠️ 技术栈与技能
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -27,38 +29,36 @@ Hi there! I'm a passionate developer who loves to build amazing things with code
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-## 📊 GitHub Stats
+## 📊 GitHub 统计
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=xe13579&show_icons=true&theme=radical)
+<!-- GitHub 统计图表会在这里显示 -->
 
-## 🔥 Featured Projects
+## 🔥 精选项目
 
-### [Project Name 1](链接到项目)
-简短的项目描述，突出技术和解决的问题。
+### [即将添加项目名称](#)
+精彩项目的详细描述，包括使用的技术栈和解决的实际问题。
 
-### [Project Name 2](链接到项目)
-另一个令人印象深刻的项目说明。
+### [更多项目敬请期待](#)
+持续更新中，敬请关注！
 
 ## 📈 Contribution Activity
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=xe13579&theme=github)
 
-## 🎯 Current Focus
+## 🎯 学习重点
 
-目前正在学习和探索的领域：
-- 人工智能和机器学习
-- 云原生技术
-- 系统设计和架构
+我目前正在深入研究以下技术领域：
+- 机器学习与深度学习
+- 云计算与微服务架构
+- 系统性能优化
 
-## 🤝 Let's Connect!
+## 🤝 联系我
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](你的LinkedIn链接)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](你的Twitter链接)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:你的邮箱)
+目前主要通过 GitHub 进行技术交流，欢迎关注我的项目和贡献！
 
-## 📝 Blog & Writing
+## 📝 技术分享
 
-我偶尔会在 [个人博客](你的博客链接) 上分享技术心得和学习笔记。
+我会在 GitHub Discussions 中分享技术心得和学习笔记，欢迎交流讨论！
 
 ---
 
