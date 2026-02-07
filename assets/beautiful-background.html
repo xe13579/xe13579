@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 五彩缤纷的 GitHub Profile 背景</title>
+    <link rel="stylesheet" href="background.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .tech-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .tech-icon {
+            font-size: 2rem;
+            animation: bounce 2s infinite;
+        }
+        
+        .tech-icon:nth-child(1) { animation-delay: 0s; }
+        .tech-icon:nth-child(2) { animation-delay: 0.2s; }
+        .tech-icon:nth-child(3) { animation-delay: 0.4s; }
+        .tech-icon:nth-child(4) { animation-delay: 0.6s; }
+        .tech-icon:nth-child(5) { animation-delay: 0.8s; }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+        
+        .floating-text {
+            position: absolute;
+            font-size: 1.5rem;
+            font-weight: bold;
+            opacity: 0.8;
+            animation: float-text 8s infinite linear;
+        }
+        
+        .floating-text:nth-child(1) { top: 20%; left: -10%; color: #ff6b6b; animation-delay: 0s; }
+        .floating-text:nth-child(2) { top: 40%; left: -10%; color: #4ecdc4; animation-delay: 1s; }
+        .floating-text:nth-child(3) { top: 60%; left: -10%; color: #45b7d1; animation-delay: 2s; }
+        .floating-text:nth-child(4) { top: 80%; left: -10%; color: #ffbe0b; animation-delay: 3s; }
+        
+        @keyframes float-text {
+            0% { transform: translateX(0); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateX(calc(100vw + 100px)); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 背景容器 -->
+    <div class="background-container">
+        <!-- 渐变光效 -->
+        <div class="gradient-overlay"></div>
+        
+        <!-- 彩色飘带 -->
+        <svg class="ribbon" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="ribbon-path" d="M0,20 Q25,5 50,20 T100,20" />
+            <path class="ribbon-path" d="M0,40 Q25,25 50,40 T100,40" />
+            <path class="ribbon-path" d="M0,60 Q25,45 50,60 T100,60" />
+            <path class="ribbon-path" d="M0,80 Q25,65 50,80 T100,80" />
+        </svg>
+        
+        <!-- 粒子效果 -->
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <!-- 星星效果 -->
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        
+        <!-- 浮动文字 -->
+        <div class="floating-text">🌟 创意无限</div>
+        <div class="floating-text">🚀 技术突破</div>
+        <div class="floating-text">🎨 艺术与代码</div>
+        <div class="floating-text">⚡ 激情创造</div>
+    </div>
+    
+    <!-- 主要内容 -->
+    <div class="content">
+        <h1 class="rainbow-text">🎉 欢迎来到我的创意空间！</h1>
+        
+        <div class="tech-icons">
+            <span class="tech-icon">🐍 Python</span>
+            <span class="tech-icon">⚛️ React</span>
+            <span class="tech-icon">🚀 Node.js</span>
+            <span class="tech-icon">🎨 CSS3</span>
+            <span class="tech-icon">⚡ JavaScript</span>
+        </div>
+        
+        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto;">
+            这里是我展示创意和技术的地方<br>
+            每一行代码都承载着我的热情与梦想<br>
+            让我们一起探索技术的无限可能！
+        </p>
+    </div>
+    
+    <script>
+        // 添加鼠标跟随效果
+        document.addEventListener('mousemove', (e) => {
+            const particles = document.querySelectorAll('.particle');
+            particles.forEach((particle, index) => {
+                setTimeout(() => {
+                    const x = e.clientX;
+                    const y = e.clientY;
+                    particle.style.left = `${x + (index * 20 - 80)}px`;
+                    particle.style.top = `${y + (index * 15 - 60)}px`;
+                }, index * 100);
+            });
+        });
+        
+        // 添加点击产生涟漪效果
+        document.addEventListener('click', (e) => {
+            const ripple = document.createElement('div');
+            ripple.style.position = 'absolute';
+            ripple.style.borderRadius = '50%';
+            ripple.style.backgroundColor = `rgba(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255}, 0.5)`;
+            ripple.style.width = '20px';
+            ripple.style.height = '20px';
+            ripple.style.left = `${e.clientX - 10}px`;
+            ripple.style.top = `${e.clientY - 10}px`;
+            ripple.style.pointerEvents = 'none';
+            ripple.style.animation = 'ripple 1s forwards';
+            
+            document.body.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 1000);
+        });
+        
+        // 添加涟漪动画
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(20);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

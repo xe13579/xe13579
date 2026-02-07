@@ -1,0 +1,244 @@
+/* 🌈 五彩缤纷动态背景效果 */
+.background-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* 彩色飘带动画 */
+.ribbon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.ribbon-path {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: flow 8s infinite linear;
+}
+
+.ribbon-path:nth-child(1) {
+  stroke: #ff6b6b;
+  animation-delay: 0s;
+}
+
+.ribbon-path:nth-child(2) {
+  stroke: #4ecdc4;
+  animation-delay: -1s;
+}
+
+.ribbon-path:nth-child(3) {
+  stroke: #45b7d1;
+  animation-delay: -2s;
+}
+
+.ribbon-path:nth-child(4) {
+  stroke: #ffbe0b;
+  animation-delay: -3s;
+}
+
+.ribbon-path:nth-child(5) {
+  stroke: #fb5607;
+  animation-delay: -4s;
+}
+
+.ribbon-path:nth-child(6) {
+  stroke: #8338ec;
+  animation-delay: -5s;
+}
+
+.ribbon-path:nth-child(7) {
+  stroke: #3a86ff;
+  animation-delay: -6s;
+}
+
+.ribbon-path:nth-child(8) {
+  stroke: #ff006e;
+  animation-delay: -7s;
+}
+
+@keyframes flow {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+
+/* 粒子效果 */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  animation: float 6s infinite ease-in-out;
+}
+
+.particle:nth-child(1) {
+  left: 10%;
+  background: #ff6b6b;
+  animation-delay: 0s;
+}
+
+.particle:nth-child(2) {
+  left: 20%;
+  background: #4ecdc4;
+  animation-delay: -1s;
+}
+
+.particle:nth-child(3) {
+  left: 30%;
+  background: #45b7d1;
+  animation-delay: -2s;
+}
+
+.particle:nth-child(4) {
+  left: 40%;
+  background: #ffbe0b;
+  animation-delay: -3s;
+}
+
+.particle:nth-child(5) {
+  left: 50%;
+  background: #fb5607;
+  animation-delay: -4s;
+}
+
+.particle:nth-child(6) {
+  left: 60%;
+  background: #8338ec;
+  animation-delay: -5s;
+}
+
+.particle:nth-child(7) {
+  left: 70%;
+  background: #3a86ff;
+  animation-delay: -6s;
+}
+
+.particle:nth-child(8) {
+  left: 80%;
+  background: #ff006e;
+  animation-delay: -7s;
+}
+
+.particle:nth-child(9) {
+  left: 90%;
+  background: #06d6a0;
+  animation-delay: -8s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) translateX(20px);
+    opacity: 0;
+  }
+}
+
+/* 渐变光效 */
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 80%, rgba(255, 107, 107, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(78, 205, 196, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 40% 40%, rgba(69, 183, 209, 0.3) 0%, transparent 50%);
+  animation: pulse 4s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+/* 星星闪烁效果 */
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite;
+}
+
+.star:nth-child(1) { top: 15%; left: 25%; animation-delay: 0s; }
+.star:nth-child(2) { top: 25%; left: 75%; animation-delay: 0.5s; }
+.star:nth-child(3) { top: 35%; left: 15%; animation-delay: 1s; }
+.star:nth-child(4) { top: 45%; left: 85%; animation-delay: 1.5s; }
+.star:nth-child(5) { top: 55%; left: 35%; animation-delay: 2s; }
+.star:nth-child(6) { top: 65%; left: 65%; animation-delay: 2.5s; }
+.star:nth-child(7) { top: 75%; left: 45%; animation-delay: 3s; }
+.star:nth-child(8) { top: 85%; left: 55%; animation-delay: 3.5s; }
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+}
+
+/* 彩虹文字效果 */
+.rainbow-text {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ffbe0b, #fb5607, #8338ec, #3a86ff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 3s ease infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

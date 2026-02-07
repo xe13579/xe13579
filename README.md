@@ -6,6 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/xe13579?style=flat-square&label=获得Star)](https://github.com/xe13579)
 [![Profile views](https://komarev.com/ghpvc/?username=xe13579&style=flat-square&label=访问量)](https://github.com/xe13579)
 
+<!-- 五彩缤纷动画横幅 -->
+<img src="./assets/animated-banner.svg" alt="五彩缤纷背景" width="100%"/>
+
 </div>
 
 <div align="center">
@@ -106,14 +109,14 @@
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xe13579&show_icons=true&theme=radical&border_radius=10)](https://github.com/xe13579)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xe13579&layout=compact&theme=radical&border_radius=10)](https://github.com/xe13579)
+<!-- GitHub 统计图表将在配置后自动显示 -->
+📊 **统计信息加载中...**
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=xe13579&theme=radical&border_radius=10)](https://github.com/xe13579)
+[![Profile Views](https://komarev.com/ghpvc/?username=xe13579&color=blue&style=flat-square)](https://github.com/xe13579)
 
 </div>
 
