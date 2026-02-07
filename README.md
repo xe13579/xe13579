@@ -6,11 +6,46 @@
 [![GitHub stars](https://img.shields.io/github/stars/xe13579?style=flat-square&label=获得Star)](https://github.com/xe13579)
 [![Profile views](https://komarev.com/ghpvc/?username=xe13579&style=flat-square&label=访问量)](https://github.com/xe13579)
 
-</div>
-
 <!-- 五彩缤纷动画背景 -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/xe13579/xe13579/main/assets/animated-banner.svg" alt="五彩缤纷背景" width="100%"/>
+<svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    <![CDATA[
+      @keyframes wave1 { 0% { transform: translateX(0); stroke-dasharray: 1000; stroke-dashoffset: 1000; } 100% { transform: translateX(-200px); stroke-dashoffset: 0; }}
+      @keyframes wave2 { 0% { transform: translateX(0); stroke-dasharray: 800; stroke-dashoffset: 800; } 100% { transform: translateX(-150px); stroke-dashoffset: 0; }}
+      @keyframes wave3 { 0% { transform: translateX(0); stroke-dasharray: 1200; stroke-dashoffset: 1200; } 100% { transform: translateX(-250px); stroke-dashoffset: 0; }}
+      @keyframes float1 { 0%, 100% { transform: translateY(0px) scale(1); opacity: 0.7; } 50% { transform: translateY(-40px) scale(1.2); opacity: 1; }}
+      @keyframes float2 { 0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.7; } 50% { transform: translateY(-30px) rotate(180deg); opacity: 1; }}
+      @keyframes float3 { 0%, 100% { transform: translateY(0px) rotate(45deg); opacity: 0.7; } 50% { transform: translateY(-50px) rotate(225deg); opacity: 1; }}
+      @keyframes float4 { 0%, 100% { transform: translateY(0px) scale(1); opacity: 0.7; } 50% { transform: translateY(-35px) scale(1.3); opacity: 1; }}
+      @keyframes twinkle { 0%, 100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 1; transform: scale(1.8); }}
+      @keyframes drawLine { 0% { stroke-dasharray: 0, 1000; } 100% { stroke-dasharray: 1000, 0; }}
+    ]]>
+  </style>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b6b" /><stop offset="25%" stop-color="#4ecdc4" /><stop offset="50%" stop-color="#45b7d1" /><stop offset="75%" stop-color="#ffbe0b" /><stop offset="100%" stop-color="#fb5607" />
+    </linearGradient>
+    <path id="wave1" d="M-100,150 Q0,100 100,150 T300,150 T500,150 T700,150 T900,150 T1100,150" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <path id="wave2" d="M-100,180 Q0,130 100,180 T300,180 T500,180 T700,180 T900,180 T1100,180" fill="none" stroke-width="3" stroke-linecap="round"/>
+    <path id="wave3" d="M-100,120 Q0,70 100,120 T300,120 T500,120 T700,120 T900,120 T1100,120" fill="none" stroke-width="5" stroke-linecap="round"/>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  <use xlink:href="#wave1" stroke="#ffffff" style="animation: wave1 8s infinite linear; opacity: 0.7;"/>
+  <use xlink:href="#wave2" stroke="#3a86ff" style="animation: wave2 6s infinite linear; animation-delay: -2s; opacity: 0.8;"/>
+  <use xlink:href="#wave3" stroke="#8338ec" style="animation: wave3 10s infinite linear; animation-delay: -4s; opacity: 0.6;"/>
+  <circle cx="20%" cy="70%" r="15" fill="#ff006e" style="animation: float1 4s infinite ease-in-out;"/>
+  <polygon points="40%,30% 45%,40% 35%,40%" fill="#06d6a0" style="animation: float2 5s infinite ease-in-out; animation-delay: -1s;"/>
+  <rect x="60%" y="60%" width="25" height="25" fill="#118ab2" style="animation: float3 3s infinite ease-in-out; animation-delay: -2s;" transform="rotate(45 72.5 72.5)"/>
+  <circle cx="80%" cy="40%" r="12" fill="#073b4c" style="animation: float4 6s infinite ease-in-out; animation-delay: -3s;"/>
+  <circle cx="10%" cy="20%" r="3" fill="#ffffff" style="animation: twinkle 2s infinite;"/>
+  <circle cx="30%" cy="80%" r="2" fill="#ffffff" style="animation: twinkle 2.5s infinite; animation-delay: 0.5s;"/>
+  <circle cx="70%" cy="25%" r="4" fill="#ffffff" style="animation: twinkle 3s infinite; animation-delay: 1s;"/>
+  <circle cx="90%" cy="70%" r="2.5" fill="#ffffff" style="animation: twinkle 1.8s infinite; animation-delay: 1.5s;"/>
+  <text x="50%" y="40%" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold" style="text-shadow: 3px 3px 6px rgba(0,0,0,0.5); letter-spacing: 2px;">🌟 创意无限 · 技术无界 🌟</text>
+  <text x="50%" y="65%" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" style="opacity: 0.9; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">用代码编织梦想，让技术绽放光芒</text>
+  <path d="M20% 90% L30% 85% L40% 90% L50% 80% L60% 90% L70% 85% L80% 90%" stroke="#ffffff" stroke-width="2" fill="none" style="animation: drawLine 5s infinite;"/>
+</svg>
+
 </div>
 
 <div align="center">
