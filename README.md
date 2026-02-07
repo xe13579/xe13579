@@ -6,9 +6,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/xe13579?style=flat-square&label=获得Star)](https://github.com/xe13579)
 [![Profile views](https://komarev.com/ghpvc/?username=xe13579&style=flat-square&label=访问量)](https://github.com/xe13579)
 
-<!-- 五彩缤纷动画横幅 -->
-<img src="./assets/animated-banner.svg" alt="五彩缤纷背景" width="100%"/>
+</div>
 
+<!-- 五彩缤纷动画背景 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/xe13579/xe13579/main/assets/animated-banner.svg" alt="五彩缤纷背景" width="100%"/>
 </div>
 
 <div align="center">
@@ -109,14 +111,14 @@
 
 <div align="center">
 
-<!-- GitHub 统计图表将在配置后自动显示 -->
-📊 **统计信息加载中...**
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xe13579&show_icons=true&theme=radical&border_radius=10)](https://github.com/xe13579)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xe13579&layout=compact&theme=radical&border_radius=10)](https://github.com/xe13579)
 
 </div>
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=xe13579&color=blue&style=flat-square)](https://github.com/xe13579)
+[![GitHub Streak](https://streak-stats.demolab.com?user=xe13579&theme=radical&border_radius=10)](https://github.com/xe13579)
 
 </div>
 
@@ -134,9 +136,13 @@
 
 </div>
 
-## 📈 Contribution Activity
+## 📈 贡献活动
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=xe13579&theme=github)
+<div align="center">
+
+[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=xe13579&theme=github)](https://github.com/xe13579)
+
+</div>
 
 ## 🎯 学习重点
 
